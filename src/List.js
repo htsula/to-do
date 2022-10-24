@@ -52,7 +52,7 @@ const List = () => {
     };
 
     return (
-        <div className="container">
+        <div className="container mt-4">
             <div className="d-flex justify-content-between">
                 <div>
                     <ListSearch
