@@ -2,7 +2,7 @@ import React from "react";
 
 const Task = (props) => {
     return (
-        <li className="list-group-item m-3 d-flex justify-content-between">
+        <li className="list-group-item m-3 d-flex justify-content-between border border-3">
             <h4>{props.name}</h4>
             {!props.noDelete ? (
                 <button onClick={() => props.deleteItemHandler(props.id)}>
